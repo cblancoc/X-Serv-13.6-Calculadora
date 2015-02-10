@@ -27,8 +27,8 @@ if len(sys.argv) != 4:
     print "ERROR: Número de argumentos incorrecto"
     sys.exit()
 
-if (sys.argv[1] != "suma" and sys.argv[1] != "resta" and
-    sys.argv[1] != "multiplicacion" and sys.argv[1] != "division"):
+if (sys.argv[1] != "suma" and sys.argv[1] != "resta" 
+    and sys.argv[1] != "multiplicacion" and sys.argv[1] != "division"):
     print "ERROR: Nombre de operación incorrecto"
     sys.exit()
 try:
